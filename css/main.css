@@ -1,0 +1,23 @@
+/* base */
+@import './base/reset.css';
+@import './base/variables.css';
+@import './base/layout.css';
+
+
+
+/* 3rd-party */
+/* ikoneles ar but strap*/
+/*  kitu asmenu pakurtus failus*/
+
+/* components */
+/* forma, buttonai, headeris , footeris*/
+@import './components//button.css';
+@import './components/form.css';
+
+/* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
+
+
+
+body {
+    background-color: #eee;
+}
