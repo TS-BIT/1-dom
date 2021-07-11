@@ -3,7 +3,7 @@ const hamburgerDOM = document.querySelector('.hamburger');
 
 function hamburgerClick() {
     // logoDOM.class.List.add('big');
-    logoDOM.classList
+    // logoDOM.classList
     // jei logo turi big klase
         // tai nuimame
     // jeigu neturi
@@ -17,6 +17,10 @@ function hamburgerClick() {
     }   
 }
 
+hamburgerDOM.addEventListener('click', hamburgerClick);
+
+
+/*
 function toggleLogo() {
     logoDOM.classList.toggle('big');
 }
@@ -25,3 +29,6 @@ function toggleLogo() {
 h1DOM.innerText = 'Labas vakaras!';
 h1DOM.innerText = 'Labas rytas!';
 hamburgerDOM.addEventListener('click', toggleLogo);
+*/
+
+

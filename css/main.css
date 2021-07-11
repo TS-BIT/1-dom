@@ -38,6 +38,32 @@
 }
 
 
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.big {
+    font-size: 40px;
+}
+
+nav {
+    display: none;
+    gap: 10px;
+    flex-direction: column;
+}
+
+nav.visible {
+    display: flex;
+}
+
+.hamburger {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
 body {
     background-color: #eee;
 }
