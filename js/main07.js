@@ -1,3 +1,7 @@
+
+
+
+/*
 const logoDOM = document.querySelector('.logo');
 const hamburgerDOM = document.querySelector('.hamburger');
 
@@ -10,3 +14,4 @@ function hamburgerClick() {
 }
 
 hamburgerDOM.addEventListener('click', hamburgerClick);
+*/
