@@ -1,16 +1,24 @@
-const bminusDOM = document.querySelector('.button.minus');
-const bplusDOM = document.querySelector('.button.plus');
-const breset1DOM = document.querySelector('.button.reset');
+let rezultatas = 0;
+
+const minusDOM = document.querySelector('.minus');
+const plusDOM = document.querySelector('.plus');
+const resetDOM = document.querySelector('.reset');
 const numberDOM = document.querySelector('.number');
 
-function bminusClick() {
-    number -= 1;
+function minusClick() {
+    numberDOM.innerText = --rezultatas;
+}
+    
+function plusClick() {
+    numberDOM.innerText = ++rezultatas;
 }
 
-function bplusClick() {
-    number += 1;
+function resetClick() {
+    rezultatas = 0;
+    numberDOM.innerText = rezultatas*0;      
 }
 
-function bresetClick() {
-    number = 0;       
-}
+minusDOM.addEventListener('click', minusClick);
+plusDOM.addEventListener('click', plusClick);
+resetDOM.addEventListener('click', resetClick);
+
