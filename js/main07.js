@@ -1,17 +1,16 @@
+const bminusDOM = document.querySelector('.button.minus');
+const bplusDOM = document.querySelector('.button.plus');
+const breset1DOM = document.querySelector('.button.reset');
+const numberDOM = document.querySelector('.number');
 
-
-
-/*
-const logoDOM = document.querySelector('.logo');
-const hamburgerDOM = document.querySelector('.hamburger');
-
-function hamburgerClick() {
-    if (logoDOM.classList.contains('big')) {
-        logoDOM.classList.remove('big');
-    } else {
-        logoDOM.classList.add('big');
-    }
+function bminusClick() {
+    number -= 1;
 }
 
-hamburgerDOM.addEventListener('click', hamburgerClick);
-*/
+function bplusClick() {
+    number += 1;
+}
+
+function bresetClick() {
+    number = 0;       
+}
