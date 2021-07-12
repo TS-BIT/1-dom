@@ -15,7 +15,7 @@ function plusClick() {
 
 function resetClick() {
     rezultatas = 0;
-    numberDOM.innerText = rezultatas*0;      
+    numberDOM.innerText = rezultatas;      
 }
 
 minusDOM.addEventListener('click', minusClick);
