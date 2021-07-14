@@ -4,7 +4,7 @@ const navDOM = document.querySelector('nav');
 
 /*
 function hamburgerClick() {
-    if (logoDOM.classList.contais('big')) {
+    if (logoDOM.classList.contains('big')) {
         logoDOM.classList.remove('big');
     } else {
         logoDOM.classList.add('big');
@@ -23,4 +23,5 @@ hamburgerDOM.addEventListener('click', () => {
     logoDOM.classList.toggle('big');
     navDOM.classList.toggle('visible');
   });
+  
 
