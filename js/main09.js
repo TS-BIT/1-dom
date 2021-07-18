@@ -15,8 +15,8 @@ function htmlOnload() {
 
 function minusClick() {
     numberDOM.innerText = --rezultatas;
-    ulDOM.innerText = 'Paspaudei minusa ir dabartinis rezultatas yra .'; 
-    // console.log(ulDOM);
+    ulDOM.innerText = 'Paspaudei minusa ir dabartinis rezultatas yra [value = numberDom]; 
+    console.log(numberDOM.innerText);
 }
     
 function plusClick() {
